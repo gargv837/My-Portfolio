@@ -18,9 +18,13 @@
     
         span{
             font-weight: bold;
+            padding-left: 20px;
     
             @include mobile{
                 display: none;
+            }
+            @media (max-width: 1500px) {
+                padding-left: 100px;
             }
         }
     

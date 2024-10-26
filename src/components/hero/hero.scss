@@ -5,6 +5,8 @@
     overflow: hidden;
     background: linear-gradient(180deg, #0c0c1d, #111132);
     position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
 
     .wrapper{
         max-width: 1366px;
@@ -32,6 +34,11 @@
             font-size: 30px;
             color: rebeccapurple;
             letter-spacing: 10px;
+
+            @include mobile{
+                font-size: 24px;
+                margin-top: 150px;
+            }
         }
 
         h1 {
@@ -52,6 +59,10 @@
                 margin-right: 20px;
                 cursor: pointer;
                 font-weight: 300;
+
+                @include mobile{
+                    padding: 5px;
+                }
             }
         }
 
@@ -66,11 +77,19 @@
         top: 0;
         right: 0;
 
+        @media (max-width: 1100px) and (min-width: 737px) {
+            bottom: 0px;
+            top: auto;
+            right: -60px;
+            height: 80%;
+        }
+
         @include mobile{
             bottom: -300px;
             height: 80%;
             top: auto;
-            align-items: center;
+            left: auto;
+            right: auto;
             padding: 0;
             margin: 0;
         }

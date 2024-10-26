@@ -5,13 +5,13 @@ import {motion, useScroll, useSpring, useTransform} from "framer-motion";
 const items = [
     {
         id: 1,
-        title: "College Management System",
+        title: "Gestion (CMS)",
         image: "/Gestion-loginpage.png",
-        description: "A user-friendly college management system built using MERN Stack. It simplifies academic management by handling student records, course tracking, and attendance, while enabling seamless communication between students and faculty. Designed with a REST API architecture, it ensures efficient data handling and scalability.",
+        description: "A User-friendly College Management System built using MERN Stack. Designed with a REST API architecture, it ensures efficient data handling with an effective UI.",
     },
     {
         id: 2,
-        title: "React Based Gym Website",
+        title: "Gym Website",
         image: "/gym-website.png",
         description: "A React-based gym website where users select workout type, muscle group, and intensity to receive a personalized workout plan tailored to their fitness goals and preferences, ensuring effective and efficient training.",
     },
